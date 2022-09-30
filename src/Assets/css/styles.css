@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* button styling start */
+.btn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: teal;
+}
+
+.btn-danger{
+    background-color: red;
+}
+.btn:hover{
+    opacity: 1;
+}
+/* button styling end */
