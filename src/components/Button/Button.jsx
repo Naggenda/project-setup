@@ -6,6 +6,7 @@ const Button = () => {
     return (
         <div>
             <input type="submit" value="add Todo" className="btn btn-primary" />
+            <input type="submit" value="add Todo" className="btn btn-primary" />
         </div>
     )
 }
