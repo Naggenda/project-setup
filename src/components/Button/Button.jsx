@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {Component} from 'react'
 // import { Constructor } from '@babel/types';
 
-const Button = () => {
+function Button() {
+    const handleAddTodo = () =>{
+
+    }
     
     return (
         <div>
-            <input type="submit" value="add Todo" className="btn btn-primary" />
-            <input type="submit" value="add Todo" className="btn btn-primary" />
+            <input type="submit" value="add Todo" className="btn btn-primary" onClick={ this.handleAddTodo } />
         </div>
     )
 }
