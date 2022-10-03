@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./Assets/css/styles.css";
-import Home from "./views";
+import Home from "./views/Home/Home";
 
 function App() {
   return (

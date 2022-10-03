@@ -1,16 +1,15 @@
-import React, {Component} from 'react'
-// import { Constructor } from '@babel/types';
+import React, { Component } from "react";
+// import { Constructor } from "@babel/types";
 
-function Button() {
-    const handleAddTodo = () =>{
-
-    }
-    
-    return (
-        <div>
-            <input type="submit" value="add Todo" className="btn btn-primary" onClick={ this.handleAddTodo } />
-        </div>
-    )
+class Button extends React.Component {
+//   this.handleAddTodo = this.handleAddTodo.bind(this);
+  
+render(){
+  return (
+    <div>
+    </div>
+  );
+}
 }
 
-export default Button
+export default Button;
