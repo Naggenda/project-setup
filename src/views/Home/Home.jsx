@@ -16,9 +16,9 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className="card">
       <input type="text" value={newTodo} onChange={event=> setNewTodo(event.target.value)} />
-      <button onClick={addTodos}>Add Todo</button>
+      <button onClick={addTodos} className="btn btn-primary">Add Todo</button>
       
 
       {
@@ -26,7 +26,7 @@ function Home() {
           return (
           <div>
              <span>{toDo}</span>
-             <button id= {id} onClick={() => deleteTodos(id)}>Delete</button>
+             <button id= {id} onClick={() => deleteTodos(id)} className="btn btn-danger">Delete</button>
           </div>
           )
         })
