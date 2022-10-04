@@ -5,10 +5,10 @@ import Home from "./views/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="myTodo">
+      
         <Home />
-      </header>
+      
     </div>
   );
 }

@@ -7,6 +7,7 @@ class Button extends React.Component {
 render(){
   return (
     <div>
+      <button type="submit" className="btn btn-primary" onClick={ this.handleAddTodo } >add Todo</button>
     </div>
   );
 }
