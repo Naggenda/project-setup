@@ -7,7 +7,7 @@
 /* button styling start */
 .btn{
     padding: 10px 15px;
-    border-radius: 8px;
+    border-radius: 4px;
     color: white;
     border: none;
     cursor: pointer;
@@ -24,3 +24,22 @@
     opacity: 1;
 }
 /* button styling end */
+
+/* input type=text */
+input[type="text"]{
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 4px;
+}
+/* card sect */
+.card{
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    padding: 20px 30px;
+    margin: 20px 15px;
+    width: 30vw;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
