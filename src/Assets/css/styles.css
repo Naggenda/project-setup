@@ -45,3 +45,9 @@ input[type="text"]{
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 475px){
+    .card{
+        width: 100%;
+    }
+}
